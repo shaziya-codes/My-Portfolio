@@ -11,8 +11,8 @@ body {
 
 header {
     width: 100%;
-    border-bottom: 1px solid #8B5CF6;
     background-color: #051223;
+    border-bottom: 1px solid #8B5CF6;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -56,7 +56,7 @@ nav ul li a:hover {
 }
 
 #home {
-    min-height: calc(100vh-70px);
+    min-height: calc(100vh - 70px);
     margin: 10px;
 }
 
@@ -66,7 +66,6 @@ nav ul li a:hover {
     justify-content: space-around;
     margin-top: 20px;
     padding: 20px;
-    border-bottom: 2px solid #8B5CF6;
 }
 
 #text-div1 {
@@ -82,6 +81,7 @@ nav ul li a:hover {
 
 #text-div1 p {
     text-align: left;
+    font-size: 0.7rem;
 }
 
 #text-div1 button {
@@ -100,18 +100,83 @@ nav ul li a:hover {
 
 #img-div {
     margin-top: 20px;
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
 }
 
 #img-div img {
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     object-position: center 25%;
     border-radius: 50%;
     border: 1px solid #8B5CF6;
     box-shadow: 0 0 50px rgba(139, 92, 246, 0.25);
+}
+
+#about {
+    min-height: 100vh;
+    margin: 10px;
+}
+
+#about-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#img-div2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 90px;
+}
+
+#img-div2 img {
+    width: 400px;
+    height: 400px;
+    border-radius: 90px;
+    object-fit: cover;
+    object-position: center 25%;
+    border: 1px solid #8B5CF6;
+    box-shadow: 0 0 50px rgba(139, 92, 246, 0.25);
+}
+
+#text-div2 {
+    max-width: 500px;
+    line-height: 2.5;
+    padding: 10px;
+}
+
+#text-div2 h5 {
+    color: #8B5CF6;
+    font-size: 1.2rem;
+}
+
+#text-div2 h4 {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+#text-div2 p {
+    text-align: left;
+    font-weight: 10px;
+    font-size: 0.7rem;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box h6 {
+    color: #8B5CF6;
+    font-size: 0.9rem;
+}
+
+#boxes p {
+    font-size: 0.7rem;
+    font-weight: lighter;
+    word-spacing: 2px;
 }
