@@ -11,8 +11,8 @@ body {
 
 header {
     width: 100%;
-    border-bottom: 1px solid #334155;
-    background-color: #05112c;
+    border-bottom: 1px solid #8B5CF6;
+    background-color: #051223;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -30,7 +30,7 @@ nav {
     margin-left: 20px;
     font-weight: 700;
     text-decoration: none;
-    color: #f8fafc;
+    color: #8B5CF6;
     letter-spacing: 1.2px;
 }
 
@@ -53,4 +53,65 @@ nav ul li a:hover {
     color: #8B5CF6;
     text-decoration: underline;
     text-underline-offset: 8px;
+}
+
+#home {
+    min-height: calc(100vh-70px);
+    margin: 10px;
+}
+
+#home-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #8B5CF6;
+}
+
+#text-div1 {
+    max-width: 530px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+}
+
+#text-div1 h4 {
+    color: #8B5CF6;
+    font-size: 1.2rem;
+}
+
+#text-div1 p {
+    text-align: left;
+}
+
+#text-div1 button {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+#img-div {
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#img-div img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: 50%;
+    border: 1px solid #8B5CF6;
+    box-shadow: 0 0 50px rgba(139, 92, 246, 0.25);
 }
