@@ -33,6 +33,10 @@ nav {
     text-decoration: none;
     color: #8B5CF6;
     letter-spacing: 1.2px;
+    text-shadow:
+        0 0 5px #63518b,
+        0 0 10px #63518b,
+        0 0 20px #63518b;
 }
 
 nav ul {
@@ -187,15 +191,20 @@ nav ul li a:hover {
     word-spacing: 2px;
 }
 
-#skilll {
+#skill {
     min-height: 80vh;
     margin: 10px;
 }
 
-#skilll h2 {
+#skill h2 {
     color: #8B5CF6;
     text-align: center;
     font-size: 2rem;
+    /* text-shadow: 0 0 10px #63518b; */
+    text-shadow:
+        0 0 5px #63518b,
+        0 0 10px #63518b,
+        0 0 20px #63518b;
 }
 
 #skill-div {
@@ -245,6 +254,11 @@ nav ul li a:hover {
     color: #8B5CF6;
     text-align: center;
     font-size: 2rem;
+    text-shadow:
+        0 0 5px #63518b,
+        0 0 10px #63518b,
+        0 0 20px #63518b;
+
 }
 
 #project-divs {
@@ -253,4 +267,87 @@ nav ul li a:hover {
     justify-content: space-around;
     padding: 1rem;
     margin-top: 5rem;
+}
+
+#education {
+    min-height: 70vh;
+    margin: 10px;
+}
+
+#education h2 {
+    color: #8B5CF6;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow:
+        0 0 5px #63518b,
+        0 0 10px #63518b,
+        0 0 20px #63518b;
+}
+
+#education-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+#education-detail {
+    border: 2px solid #63518b;
+    height: 350px;
+    width: 350px;
+    line-height: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 50px rgba(139, 92, 246, 0.25);
+}
+
+#education-detail h4 {
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+#education-detail h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 1px;
+}
+
+#education-detail p {
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#certificate-detail {
+    border: 2px solid #63518b;
+    height: 350px;
+    width: 350px;
+    line-height: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 50px rgba(139, 92, 246, 0.25);
+}
+
+#certificate-detail h4 {
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+#certificate-detail ul {
+    list-style: none;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#certificate-detail ul li {
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
 }
